@@ -1,0 +1,14 @@
+export const apiDomain = 'http://localhost:8000/'
+export const logoutUrl = apiDomain + 'api/logout'
+export const loginUrl = apiDomain + 'api/login'
+export const regUrl = apiDomain + 'api/register'
+export const getCompanyUrl = apiDomain + 'api/companies/'
+export const postCompany = getCompanyUrl + 'create'
+export const getUser = apiDomain + 'api/user'
+export const getProjectUrl = apiDomain + 'api/projects/'
+export const addProjectTeam = apiDomain + 'api/projects/adduser'
+export const postProject = getProjectUrl + 'create'
+export const postProject1 = getProjectUrl + 'create1'
+export const postComment = apiDomain + 'api/comments/create'
+export const clientId = "1"
+export const clientSecret = "kkvhBE2ObA4YDqvYEvYLCFeCTaG4xsGIIopRVjxi"
